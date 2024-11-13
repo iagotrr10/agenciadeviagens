@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10%;
+}
+
+.logo {
+  width: 200px;
+  border: red solid;
+}
+.logo img {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  border: solid;
+}
+
+#navbarlist {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.btn-default {
+  background-color: #4dff4d;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 40px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+
+.btn-default:hover {
+  background-color: blue;
+  scale: 1.05;
+}/*# sourceMappingURL=style.css.map */
